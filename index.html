@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus!</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body id="AppBody">
+    <div id="mainBox" class="Box">
+        <div id="BoxRow" class="BoxRow">
+            <div id="AddTask" class="BoxCell">
+                <form id="TaskForm">
+                    <label for="Task"> <h4>Task</h4> </label>
+                    <input type="text" id="Task">
+                    <label for="Priority"> <h4>Priority</h4> </label>
+                    <input type="range" max="5" id="Priority"> <br>
+                    <button type="submit" id="TaskSubmitButton" class="Button"<h4>Add</h4></button>
+                </form>
+            </div>
+            <div id="ListShow" class="BoxCell">
+                <table id='TaskShowTable'>
+                    <tr>
+                        <td>Task Name</td>
+                        <td>Priority</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="BoxRow">
+            <button type="submit" id="StartFocusButton" class="Button"><h4>Start Focusing</h4></button>
+        </div>
+    </div>
+    <script src="./src/index.js"></script>
+</body>
+</html>

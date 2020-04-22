@@ -1,0 +1,20 @@
+.widget {
+    -webkit-app-region: drag
+}
+
+.BoxRow {
+    display: table-row;
+ }
+ 
+ .BoxCell {
+    display: table-cell;
+    text-align: center;
+    border: 1px solid brown;
+    padding: 10px;
+    border-radius: 15px;
+    height: 50px;
+ }
+
+ .TaskDoneButton {
+     border-radius: 5px;
+ }

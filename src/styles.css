@@ -1,0 +1,30 @@
+h4 {
+   color: black; 
+}
+
+.Box {
+   width: 500;
+   height: 300;
+   display: table;
+   border: 1px solid navy;
+}
+
+.BoxRow {
+   display: table-row;
+}
+
+.BoxCell {
+   display: table-cell;
+   text-align: justify;
+}
+
+table, td {
+   table-layout: auto;
+   border: 1px solid #ffb6b6;
+   text-align: center;
+   border-radius: 5px;
+}
+
+.Button {
+   background-color: #ffb6b6;
+}

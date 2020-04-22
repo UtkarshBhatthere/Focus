@@ -1,0 +1,15 @@
+{
+  "name": "focus",
+  "version": "0.0.1",
+  "description": "A Focused To-Do App",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Utkarsh Bhatt",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^8.2.3"
+  },
+  "dependencies": {}
+}

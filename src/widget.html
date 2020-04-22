@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
+    <link rel="stylesheet" href="./widgetStyles.css">
+    <title>Focus!</title>
+</head>
+<body>
+    <div id="root" class="widget">
+        <div id="TopBar" class="BoxRow">
+            <div id="ProgressBarContainer" class="BoxCell">
+                <label for="ProgressBar">Progress</label><br>
+                <progress id="ProgressBar" value="0" max="100"></progress>
+            </div>
+            <div id="TaskTimer" class="BoxCell">
+                Timer Placeholder
+                <!-- Task Timer will go here. -->
+            </div>
+        </div>
+        <div id="TaskTable" class="BoxRow">
+            <div id="TaskCell" class="BoxCell">
+                Task Placeholder
+                <!-- Task will go here. -->
+            </div>
+            <div id="DoneCell" class="BoxCell">
+                <button type="submit" id="TaskDoneButton" class="TaskDoneButton"><h4>Done</h4></button>
+            </div>
+        </div>
+    </div>
+    <script src="./widget.js"></script>
+</body>
+</html>
